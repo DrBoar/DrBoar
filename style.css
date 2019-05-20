@@ -1,0 +1,59 @@
+html,body
+{
+    background-color: #f6e5dc;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    margin: 0;
+    padding: 0;
+}
+#baner
+{
+    background-color: #2f180c;
+    text-align: center;
+    color: white;
+    height: 60px;
+}
+
+#left-right-side
+{
+    display: flex;
+}
+
+#left-side
+{
+    width: 60%;
+}
+
+#right-side
+{
+    font-size: 200%;
+    padding: 50px;
+}
+
+#bottom-side
+{
+    background-color: #D0B6A8;
+    text-align: center;
+    padding: 30px;
+}
+
+footer
+{
+    background-color: #2F180C;
+    color: white;
+    height: 60px;
+}
+
+img
+{
+    height: 400px;
+}
+
+ul
+{
+    list-style-type: circle;
+}

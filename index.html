@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header id="baner">
+            <h1>Witamy w restauracji "Wszystkie Smaki"</h1>
+        </header>
+
+        <div id="left-right-side">
+            <article id="left-side">
+                <img src="menu.jpg" alt="Nasze danie">
+            </article>
+    
+            <section id="right-side">
+                <h4>U nas dobrze zjesz!</h4>
+                <ul>
+                    <li>Obiady od 40 zł</li>
+                    <li>Przekąski od 10zł</li>
+                    <li>Kolacje od 20 zł</li>
+                </ul>
+            </section>
+        </div>
+
+        <article id="bottom-side">
+            <h2>Zarezerwuj stolik on-line</h2>
+            <form action="rezerwacja.php" method="post">
+                Data (format rrrr-mm-dd): <br>
+                <input type="text" name="da"> <br>
+                Ile osób? <br>
+                <input type="number" name="quanity"> <br>
+                Twój numer telefonu: <br>
+                <input type="text" name="numberTel"> 
+                <br>
+                <input type="checkbox" name="" id="">
+                Zgadzam się na przetwarzanie moich danych osobowych <br>
+
+                <input type="reset" value="WYCZYŚĆ">
+                <input type="submit" value="REZERWUJ" name="sub">
+
+            </form>
+        </article>
+
+        <footer>
+            Stronę internetową opracował: <i>0000000000</i>
+        </footer>
+
+
+    </div>
+</body>
+</html>
